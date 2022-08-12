@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/iafan/cwalk"
+	"github.com/jxsl13/cwalk"
 )
 
 // This example takes bin/traversaltime.go program as a basis,

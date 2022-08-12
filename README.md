@@ -12,6 +12,9 @@ For measurements, I used the provided `bin/traversaltime.go` utility that measur
 directory traversal time for both concurrent (`cwalk.Walk()`) and standard
 (`filepath.Walk()`) functions.
 
+**INFO:** This variant of `cwalk` allows the walking over single files and does have the same behavior as `filepath.Walk`.
+The path passed to the WalkFunc is the absolute path to the file.
+
 Here are two common use cases when `cwalk` might be useful:
 
   1. You're doing subsequent scans of the same directory
