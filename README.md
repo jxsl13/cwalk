@@ -26,13 +26,13 @@ Here are two common use cases when `cwalk` might be useful:
 ### Installation
 
 ```shell
-$ go get github.com/iafan/cwalk
+$ go get github.com/jxsl13/cwalk
 ```
 
 ### Usage
 
 ```go
-import "github.com/iafan/cwalk"
+import "github.com/jxsl13/cwalk"
 
 ...
 
